@@ -4,17 +4,23 @@ import java.io.Serializable;
 
 public class Produit implements Serializable {
 
+	//proprietes
 	private long id;
 	private String nom;
 	private String prix;
+	
+	
+	//constructors
 	public Produit() {
-		// TODO Auto-generated constructor stub
+	
 	}
 	public Produit(String nom, String prix) {
 		super();
 		this.nom = nom;
 		this.prix = prix;
 	}
+	
+	//getters & setters
 	public long getId() {
 		return id;
 	}
